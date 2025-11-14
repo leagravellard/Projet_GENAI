@@ -2,3 +2,5 @@
 .env
 # Dossier de l'environnement virtuel
 venv311/
+
+.history/
