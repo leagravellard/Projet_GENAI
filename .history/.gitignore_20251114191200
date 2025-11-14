@@ -1,4 +1,0 @@
-# Fichier d'environnement (contient les secrets)
-.env
-# Dossier de l'environnement virtuel
-venv311/

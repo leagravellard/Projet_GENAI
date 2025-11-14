@@ -1,6 +1,24 @@
-# Fichier d'environnement (contient les secrets)
+# --- Secrets ---
 .env
-# Dossier de l'environnement virtuel
-venv311/
 
+# --- Environnement virtuel ---
+.venv/
+venv/
+
+# --- Dossiers internes (cache, historique, DB vectorielle) ---
 .history/
+__pycache__/
+chroma_db/
+
+# --- Fichiers temporaires Python ---
+*.pyc
+*.pyo
+*.pyd
+
+# --- Fichiers générés par Jupyter / VS Code ---
+.ipynb_checkpoints/
+.vscode/
+
+# --- Fichiers système (Mac / Windows) ---
+.DS_Store
+Thumbs.db
