@@ -18,6 +18,7 @@ click==8.3.0
 colorama==0.4.6
 coloredlogs==15.0.1
 dataclasses-json==0.6.7
+ddgs==9.9.1
 distro==1.9.0
 duckduckgo_search==8.1.1
 durationpy==0.10
