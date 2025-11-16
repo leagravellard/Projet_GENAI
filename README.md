@@ -1,6 +1,6 @@
 # Assistant Intelligent Multi-Compétences (RAG + Agents)
 
-Ce projet est une application web conversationnelle construite avec Streamlit et LangChain. L'assistant est capable de répondre à des questions en utilisant plusieurs sources d'information : un corpus de documents locaux (PDF), une recherche web, Wikipedia, et une calculatrice.
+Ce projet est une application web conversationnelle construite avec Streamlit et LangChain. L'assistant est capable de répondre à des questions en utilisant plusieurs sources d'information : un corpus de documents locaux (PDF), une recherche web, Wikipedia ainsi qu'une calculatrice.
 
 ## 🌟 Fonctionnalités
 
