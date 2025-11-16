@@ -89,6 +89,10 @@ Suivez ces étapes pour lancer le projet sur votre machine.
     ```bash
     streamlit run app.py
     ```
+    ou 
+    ```bash
+    streamlit run assistant_app.py
+    ```
     - Votre navigateur devrait s'ouvrir sur l'interface de l'assistant.
 
 ## 📁 Structure du Projet
@@ -96,7 +100,9 @@ Suivez ces étapes pour lancer le projet sur votre machine.
 ```
 .
 ├── 📄 app.py               # Script principal de l'application Streamlit
+├── 📄 assistant_app.py     # Script alternatif de l'application Streamlit
 ├── 📄 ingest.py             # Script pour l'ingestion des documents
+├── 📄 purger.py            # Script pour purger Chroma_db
 ├── 📄 test_agent.py         # Script de test pour l'agent en ligne de commande
 ├── 📄 requirements.txt     # Liste des dépendances Python
 ├── 📄 .env                   # Fichier pour les variables d'environnement (clé API)
