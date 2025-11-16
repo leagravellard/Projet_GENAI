@@ -101,12 +101,12 @@ Suivez ces étapes pour lancer le projet sur votre machine.
 .
 ├── 📄 app.py               # Script principal de l'application Streamlit
 ├── 📄 assistant_app.py     # Script alternatif de l'application Streamlit
-├── 📄 ingest.py             # Script pour l'ingestion des documents
+├── 📄 ingest.py            # Script pour l'ingestion des documents
 ├── 📄 purger.py            # Script pour purger Chroma_db
-├── 📄 test_agent.py         # Script de test pour l'agent en ligne de commande
+├── 📄 test_agent.py        # Script de test pour l'agent en ligne de commande
 ├── 📄 requirements.txt     # Liste des dépendances Python
-├── 📄 .env                   # Fichier pour les variables d'environnement (clé API)
+├── 📄 .env                 # Fichier pour les variables d'environnement (clé API)
 ├── 📄 .gitignore           # Fichiers et dossiers à ignorer par Git
-├── 📁 documents/            # Dossier où placer vos fichiers PDF
-└── 📁 chroma_db/             # Base de données vectorielle (créée par ingest.py)
+├── 📁 documents/           # Dossier où placer vos fichiers PDF
+└── 📁 chroma_db/           # Base de données vectorielle (créée par ingest.py)
 ```
